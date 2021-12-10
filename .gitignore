@@ -1,0 +1,7 @@
+__pycache__/
+*.egg-info/
+.installed.cfg
+*.egg
+*.log
+debug.py
+pipe.yml

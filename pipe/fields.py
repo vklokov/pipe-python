@@ -28,11 +28,11 @@ def serialize_fields(source: dict, fields: List[dict], custom: dict) -> dict:
     return result
 
 
-FIELD_TEXT = ['varchar', 'varchar_auto', 'text']
-FIELD_FLOAT = ['double', 'monetary']
-FIELD_EMAIL = ['email']
-FIELD_PHONE = ['phone']
-FIELD_ENUM = ['enum']
+FIELD_TEXT = ('varchar', 'varchar_auto', 'text')
+FIELD_FLOAT = ('double', 'monetary')
+FIELD_EMAIL = ('email')
+FIELD_PHONE = ('phone')
+FIELD_ENUM = ('enum')
 
 
 def serialize_field_value(value):
